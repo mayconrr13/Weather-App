@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.day-theme{
+    background-image: linear-gradient(180deg, #2193b0, #6dd5ed);
+}
+
+.night-theme{
+    background-image: linear-gradient(180deg, #232526, #203A43);
+}
+
+#app form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#app form input {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    border: none;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#app form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-left: -30px;
+    background-color: #43cea2;
+}
+
+#app form input:focus,
+#app form button:focus {
+    outline: none;
+}
+
+#app .loading-message, 
+#app .error-message {
+    font-size: 2rem;
+    color: #eee;
+    background-color: #1212122c;
+    text-align: center;
+    width: 300px;
+    max-height: 50px;
+}

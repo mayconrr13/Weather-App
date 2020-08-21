@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    box-sizing: border-box;
+    padding: 10px;
+
+    border-radius: 10px;
+
+    background-color: #1212122c;
+    width: 300px;
+    height: 450px;
+}
+
+.forecast .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forecast .info .city-name {
+    font-size: 3rem;
+    color: #eee;
+}
+
+.forecast .info .date {
+    font-size: 0.8rem;
+    color: #eee;
+    margin-top: -15px;
+}
+
+.forecast img {
+    width: 200px;
+    color: lawngreen;
+}
+
+.forecast .set-temperature {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+    
+    color: #eee;
+    font-size: 1.5rem;
+}
+
+.forecast .set-temperature .temperature {
+    font-size: 6rem;
+    line-height: 100px;
+}
